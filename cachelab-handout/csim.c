@@ -43,7 +43,7 @@ void sim_set_associative(CachePtr cp, unsigned index, unsigned tag,
 void evict(CachePtr cp, unsigned index, unsigned tag);
 void free_cache(CachePtr cp);
 
-unsigned time = 0;
+static unsigned time = 0;
 
 void
 help()
