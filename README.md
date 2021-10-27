@@ -15,7 +15,7 @@
 
 ## Style
 
-- I followed [suckless](suckless.org/coding_style) coding style.
+- I followed [suckless](https://suckless.org/coding_style/) coding style.
 
 ## Lab Files
 
