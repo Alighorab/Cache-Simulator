@@ -147,6 +147,7 @@ simulate(CachePtr cp, char* trace_filename, StatePtr sp, unsigned verb)
             ; /* Do nothing for instruction load operation */
         }
     }
+    fclose(trace_file);
 }
 
 void
