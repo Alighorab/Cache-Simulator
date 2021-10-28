@@ -19,9 +19,9 @@
 
 ## Lab Files
 
-- cachelab.pdf: cachelab writup.
-- csim.c: my simulator.
-- csim-ref: refrernce simulator to compare your results with.
-- traces: directory contains valgrind memory trace input files.
-- test-sim: program to test the correctness of your simulator.
-- coding-style.txt: suckless coding-style in text format.
+- `cachelab.pdf`: cachelab writup.
+- `csim.c`: my simulator.
+- `csim-ref`: refrernce simulator to compare your results with.
+- `traces`: directory contains valgrind memory trace input files.
+- `test-sim`: program to test the correctness of your simulator.
+- `coding-style.txt`: suckless coding-style in text format.
