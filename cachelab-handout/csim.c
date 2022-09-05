@@ -147,6 +147,7 @@ simulate(CachePtr cp, char* trace_filename, StatePtr sp, unsigned verb)
             ; /* Do nothing for instruction load operation */
         }
     }
+    fclose(trace_file);
 }
 
 void
@@ -301,6 +302,11 @@ main(int argc, char* argv[])
     State state = {0, 0, 0};
     unsigned verbose = 0;
     char* trace_filename = NULL;
+
+    if (argc < 2 || argc < 9) {
+        help();
+        exit(-1);
+    }
 
     /* 1. Parse input */
     verbose = parse(&cache, &trace_filename, argc, argv);

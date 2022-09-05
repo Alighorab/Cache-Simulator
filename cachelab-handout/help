@@ -1,4 +1,4 @@
-Usage: ./csim-ref [-hv] -s <num> -E <num> -b <num> -t <file>
+Usage: ./csim [-hv] -s <num> -E <num> -b <num> -t <file>
 Options:
   -h         Print this help message.
   -v         Optional verbose flag.
@@ -8,5 +8,5 @@ Options:
   -t <file>  Trace file.
 
 Examples:
-  linux>  ./csim-ref -s 4 -E 1 -b 4 -t traces/yi.trace
-  linux>  ./csim-ref -v -s 8 -E 2 -b 4 -t traces/yi.trace
+  linux>  ./csim -s 4 -E 1 -b 4 -t traces/yi.trace
+  linux>  ./csim -v -s 8 -E 2 -b 4 -t traces/yi.trace
